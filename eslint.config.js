@@ -30,11 +30,13 @@ export default [
       'indent': ['error', 2], // Enforce 2-space indentation
       'quotes': ['error', 'single'], // Enforce single quotes
       'semi': ['error', 'always'], // Require semicolons
+      'no-multiple-empty-lines': ['error', { max: 1 }], // No multiple enters
 
       // TypeScript rules
       '@typescript-eslint/no-explicit-any': 'warn', // Warn when 'any' type is used
       '@typescript-eslint/explicit-function-return-type': 'warn', // Require explicit return types on functions
       '@typescript-eslint/explicit-module-boundary-types': 'warn', // Require explicit return and argument types on exported functions
+
 
       // Naming convention rules
       'camelcase': 'error', // Enforce camelCase naming convention
