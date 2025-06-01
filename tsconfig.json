@@ -8,7 +8,8 @@
     "lib": [
       "esnext"
     ],
-    "moduleResolution": "node",
+    "moduleResolution": "nodenext",
+    "module": "nodenext",
     "noEmit": true,
     "strict": true,
     "target": "esnext",
