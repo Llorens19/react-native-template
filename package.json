@@ -1,7 +1,7 @@
 {
   "name": "example",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "index.ts",
   "type": "module",
   "engines": {
     "node": ">=16.0.0"
