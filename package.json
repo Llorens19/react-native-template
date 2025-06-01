@@ -12,18 +12,19 @@
     "web": "expo start --web",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "lint:fix": "eslint . --ext .js,.jsx,.ts,.tsx --fix",
-    "expo:check":"npx expo-doctor",
-    "android:build":"eas build -p android"
+    "expo:check": "npx expo-doctor",
+    "android:build": "eas build -p android"
   },
   "dependencies": {
     "@expo/metro-runtime": "~5.0.4",
+    "babel-preset-expo": "~13.0.0",
     "expo": "~53.0.9",
     "expo-status-bar": "~2.2.3",
+    "nativewind": "^2.0.11",
     "react": "19.0.0",
     "react-dom": "19.0.0",
     "react-native": "0.79.2",
-    "react-native-web": "0.20.0",
-    "babel-preset-expo": "~13.0.0"
+    "react-native-web": "0.20.0"
   },
   "devDependencies": {
     "@babel/core": "7.27.4",
@@ -38,6 +39,7 @@
     "eslint-plugin-react": "7.37.5",
     "eslint-plugin-react-hooks": "5.2.0",
     "eslint-plugin-react-native": "5.0.0",
+    "tailwindcss": "3.3.2",
     "typescript": "~5.8.3"
   },
   "private": true
